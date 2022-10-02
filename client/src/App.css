@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+body {
+  /* background-image: url(./components/banner.jpg); */
+  background-repeat: no-repeat;
+  background-color: #292929;
+  color: white;
+}
+.navbar {
+  background-color: #f3971b;
+}
+.navtext {
+  color: white;
+}
+.navtext:hover,
+.navtext:active {
+  background: black;
+  color: white;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f3971b;
+}
+
+.App-link {
+  color: #09d3ac;
+}

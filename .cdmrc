@@ -1,0 +1,4 @@
+tabs: ["client/src/App.js", "contracts/Lottery.sol"]
+terminal-one: cd client && npm install && npm start
+terminal-two: ((kill -9 $(lsof -t -i:8545) || true) && ganache-cli)
+terminal-three: truffle migrate --reset

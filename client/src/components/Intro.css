@@ -1,0 +1,29 @@
+h3 {
+  color: #343434;
+  font-weight: normal;
+  font-family: "Ultra", sans-serif;
+  font-size: 50px;
+  line-height: 42px;
+  color: #f9ac06;
+}
+.button1 {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover,
+.button1:active {
+  background-color: black;
+  color: white;
+}
+.player {
+  padding-left: 15px;
+  padding-right: 15px;
+}

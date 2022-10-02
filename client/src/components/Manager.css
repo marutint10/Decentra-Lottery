@@ -1,0 +1,35 @@
+button {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+#list {
+  margin-top: 200px;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 5px solid black;
+  padding: 10px;
+}
